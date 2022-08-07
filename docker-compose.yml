@@ -1,0 +1,8 @@
+version: '2.2'
+services:
+
+  sample_db:
+    image: redis
+      
+  sample_web:
+    image: nginx
